@@ -10,12 +10,6 @@ define('MAIN_URL', '');
 define('MAIN_CONTROLLER', 'Store');
 
 /**
- * TRUE = MOSTRAR TODOS OS ERROS
- * FALSE = ESCONDER TODOS OS ERROS;
- */
-define('DEVELOPMENT', TRUE);
-
-/**
  * CONSTANTES DE DIRETORIOS
 */
 define('DS', DIRECTORY_SEPARATOR);
@@ -32,10 +26,10 @@ define('ASSETS_PATH', ROOT_SITE.'assets'.DS);
  * CONSTANTES DE BANCO DE DADOS
  */
 define('DRIVE', 'mysql');
-define('HOST', '');
-define('PORT', '');
-define('DBNAME', '');
-define('USERNAME', '');
+define('HOST', 'localhost');
+define('PORT', '3307');
+define('DBNAME', 'ecomsimple');
+define('USERNAME', 'root');
 DEFINE('PASSWORD', '');
 
 /**

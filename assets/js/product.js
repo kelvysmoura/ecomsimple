@@ -16,12 +16,14 @@ product.find('form#calc_frete').validate({
     errorClass: 'uk-form-danger',
     rules: {
         frete: {
-            required: true
+            required: true,
+            minlength: 9
         }
     },
     messages: {
         frete: {
-            required: "Digite seu cep"
+            required: "Digite seu cep",
+            minlength: "Cep invalido"
         }
     }
 });
