@@ -1,12 +1,14 @@
 # ecomsimple
 
+- Foi testado no php 5.6.31 e 7.1.9
+
 ## Instruções para teste em localhost
 
 ### Antes de tudo
-```
-Certifique-se de que está usando um versão PHP >= 5.6.31
-Dê o comando composer update para instalar as dependecias
-```
+
+- Certifique-se de que está usando um versão PHP >= 5.6.31
+- Dê o comando composer update para instalar as dependecias
+
 
 ### Configurando url base
 ```php
