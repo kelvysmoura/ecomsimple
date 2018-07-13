@@ -1,0 +1,34 @@
+footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+footer div{
+	padding: 5px;
+}
+.bleez-color{
+	color: rgb(109, 0, 171);
+}
+.bleez-bg-color{
+	background-color: rgb(109, 0, 171);
+}
+.fs-12{ font-size: 1.2em !important; }
+.fs-13{ font-size: 1.3em !important; }
+.fs-14{ font-size: 1.4em !important; }
+.fs-15{ font-size: 1.5em !important; }
+.fs-16{ font-size: 1.6em !important; }
+.fs-17{ font-size: 1.7em !important; }
+.fs-18{ font-size: 1.8em !important; }
+.fs-19{ font-size: 1.9em !important; }
+.fs-20{ font-size: 2em !important; }
+.uk-alert{ cursor: pointer; }
+.break-word{ word-wrap: break-word; }
+.cursor-pointer{ cursor: pointer !important; }
+.text-cancel{ text-decoration: line-through }
+.uk-notification-close, 
+.uk-notification-message-primary{
+	color: #fff;
+}
+.uk-notification-message-primary{
+	background-color:#1e87f0;
+}
