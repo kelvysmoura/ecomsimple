@@ -58,9 +58,3 @@ CREATE TABLE `user` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 
-
--- É important que insira esse registro pois a validação da senha é feita com password_verify()
-
-INSERT INTO `user` VALUES (1,'Admin','Admin','admin@mail.com','$2y$10$w573GZuD3kSh/mqXDqIg6OtYL8Q3KT7MXgHEH09YmkmSePzjbLtza',CURRENT_TIMESTAMP,CURRENT_TiMESTAMP);
-
-```
